@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --primary-font:Montserrat !important;
+    --primary-color:#343045;
+    --secondary-color:#e7e7e7;
+    --focus-color:#211E2E;
+    --secondary-focus:#C0B7E8;
+    --gradient-primary:linear-gradient(113deg, hsla(252, 26%, 57%, 1) 50%, hsla(251, 52%, 81%, 1) 100%);
+    /* --gradient-secondary: */
+}

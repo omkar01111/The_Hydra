@@ -1,0 +1,50 @@
+@import url(./theam.css);
+
+/* left section */
+.heading {
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--secondary-color);
+  font-family: var(--primary-font);
+  
+}
+.highlight {
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.small-des {
+  color: var(--secondary-color);
+  font-size: 16px;
+  font-weight: 400;
+  word-spacing: 1px;
+  font-family: var(--primary-font);
+  margin: 2px 0px;
+  padding-left: 14px;
+}
+/* right section */
+
+.hero-image {
+  object-fit: cover;
+    width: 100%;
+    min-height:auto;
+}
+ 
+  
+
+video{
+width: 100%;
+height: 100%;
+object-fit: contain;
+
+}
+
+@media screen and (max-width: 450px) {
+ .heading{
+  font-size: 25px;
+ }
+ .small-des{
+  font-size: 10px;
+  
+ }
+ }

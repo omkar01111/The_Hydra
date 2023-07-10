@@ -1,0 +1,23 @@
+@import url('./theam.css');
+.nav-tab{
+    text-decoration: none;
+    color:var(--secondary-color);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: var(--primary-font);
+    font-size: 15px;
+}
+.logo{
+    background-size: cover;
+    width: 120px;
+    height: 100px;
+}
+@media screen and (max-width: 1000px) {
+   .logo{
+    width: 100px;
+    height: 80px;
+   }
+   .nav-tab{
+    font-size: 13px;
+   }
+  }
